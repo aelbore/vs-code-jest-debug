@@ -1,6 +1,8 @@
 export default {
   transform: {
-    "\\.[jt]sx?$":  [ 'esbuild-jest', {
+    "\\.[jt]sx?$":  [ 
+      'esbuild-jest', 
+      {
         sourcemap: true
       }
     ]

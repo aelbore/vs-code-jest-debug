@@ -9,6 +9,9 @@
       "args": [
         "${relativeFile}",
         "--config",
+        /// change too jest.config.js 
+        /// if you are using javascript config
+        /// typescript jest config needs to install ts-node and typescript
         "jest.config.ts"
       ],
       "console": "integratedTerminal",
@@ -17,6 +20,7 @@
       "windows": {
         "program": "${workspaceFolder}/node_modules/jest/bin/jest",
       },
+      /// NOTE: change to where your nodejs PATH is
       "runtimeExecutable": "/nix/store/70pj2g3p2dk9z9knmcxn1h39k169q1xj-nodejs-14.7.0/bin/node"
     }
   ]
